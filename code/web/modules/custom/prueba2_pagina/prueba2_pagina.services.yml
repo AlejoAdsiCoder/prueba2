@@ -1,0 +1,5 @@
+services:
+  prueba2_pagina.policeman_param_converter:
+    class: Drupal\prueba2_pagina\Routing\PolicemanParamConverter
+    tags:
+      - { name: paramconverter }

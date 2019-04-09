@@ -1,0 +1,50 @@
+prueba2.pagina:
+  path: '/pagina' 
+  defaults: 
+    _controller: '\Drupal\prueba2_pagina\Controller\PaginaController::pagina'
+    _title: 'Hola Mundo' 
+  requirements: 
+    _permission: 'access content' 
+
+prueba2.hola_nombre:
+  path: '/hola/{name}' 
+  defaults: 
+    _controller: '\Drupal\prueba2_pagina\Controller\PaginaController:holaNombre'
+    name: 'seed'
+  requirements: 
+    _access: 'TRUE'
+    name: '[a-zA-Z]+'
+
+prueba2.hola_user:
+ path: '/holauser/{user}'
+ defaults:
+   _controller: '\Drupal\prueba2_pagina\Controller\PaginaController::holaUser'
+ requirements:
+   _access: 'TRUE'
+   user: \d+
+
+prueba2.hola_users:
+ path: '/holausuarios/{user1}/{user2}'
+ defaults:
+   _controller: '\Drupal\prueba2_pagina\Controller\PaginaController::holaUsers'
+ requirements:
+   _access: 'TRUE'
+   user1: \d+
+   user2: \d+
+ options:
+   parameters:
+     user1:
+       type: entity:user
+     user2:
+       type: entity:user
+
+prueba2.policeman:
+  path: '/policeman/{policeman}'
+  defaults:
+    _controller: \Drupal\prueba2_pagina\Controller\PolicemanController::view
+  requirements:
+    _access: 'TRUE'
+  options:
+    parameters:
+      policeman:
+        type: policeman

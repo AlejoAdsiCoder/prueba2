@@ -1,0 +1,6 @@
+name: Prueba2 - Pagina
+core: 8.x
+description: Módulo de prueba
+type: module
+package: Custom
+version: 1.0

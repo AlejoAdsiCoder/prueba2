@@ -1,0 +1,16 @@
+name: Curso
+type: theme
+description: "Mi primer thema con drupal 8"
+core: 8.x
+package: Custom
+version: 1.0
+base theme: classy
+regions:
+    header: "Header"
+    primary_menu: "Primary menu"
+    help: "Help"
+    breadcrumb: "Breadcrumb"
+    content: "Content"
+    sidebar_first: "Sidebar first"
+    footer_first: "Footer first"
+    buscador: "Buscador"
