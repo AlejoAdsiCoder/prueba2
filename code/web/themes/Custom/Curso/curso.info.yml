@@ -14,3 +14,6 @@ regions:
     sidebar_first: "Sidebar first"
     footer_first: "Footer first"
     buscador: "Buscador"
+
+libraries:
+  - curso/base
