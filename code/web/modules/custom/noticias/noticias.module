@@ -1,0 +1,25 @@
+<?php
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+function noticias_help($route_name, RouteMatchInterface $route_match) {
+    switch($route_name) {
+        case 'help.page.noticias':
+            return t('Esta es la información de la página de noticias');
+        case 'noticias.description':
+            return t('Esta es la información de ayuda de el apartado de configuración de noticias');
+    }
+}
+
+function noticias_permission() {
+    return array (
+        'access conten' => array(
+            'title' => t('Acceso a las noticias'),
+            'description' => t('Permite acceder a la vista de detalle o resumen de las noticias'),
+        ),
+        'access config' => array(
+            'title' => t('Acceso a configuración del módulo'),
+            'description' => t('Permite acceder a la configuración del módulo noticias'),
+        ),
+    );
+}
