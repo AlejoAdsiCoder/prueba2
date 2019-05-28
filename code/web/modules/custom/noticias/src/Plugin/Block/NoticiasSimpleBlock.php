@@ -8,6 +8,7 @@
 namespace Drupal\noticias\Plugin\Block; 
 
 use Drupal\Core\Block\BlockBase;
+use Drupal\Core\Form\FormStateInterface;
 
 /**
  * @Block (
@@ -18,6 +19,9 @@ use Drupal\Core\Block\BlockBase;
 
 class NoticiasSimpleBlock extends BlockBase {
 
+    /**
+     * {@inheritdoc}
+     */
     public function defaultConfiguration() {
         return array(
             'noticias_block_string' => $this->t('Valor por defecto. Este bloque se creo a las %time', array('%time' => date('c'))),
@@ -25,13 +29,34 @@ class NoticiasSimpleBlock extends BlockBase {
     }
 
     /**
-     * 
+     * {@inheritdoc}
      */
+    public function blockForm($form, FormStateInterface $form_state) {
+        
+        $form['noticias_block_string_text'] = array(
+            '#type' => 'textarea',
+            '#title' => $this->t('Contenido del bloque'),
+            '#description' => $this->t('Este texto aparecerá en el bloque.'),
+            '#default_value' => $this->config['noticias_block_string'],
+        );
+        return $form;
+    }
 
+    /**
+     * {@inheritdoc}
+     */
+    public function blockSubmit($form, FormStateInterface $form_state) {
+        $this->config['noticias_block_string'] = $form_state->getValue('noticias_block_string_text');
+    }
+
+
+    /**
+     * {@inheritdoc}
+     */
     public function build() {
         return array(
             '#type' => 'markup',
-            '#markup' => $this->configuration['noticias_block_string'],
+            '#markup' => $this->config['noticias_block_string'],
         );
     }
 
