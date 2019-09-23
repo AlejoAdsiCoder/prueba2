@@ -1,0 +1,7 @@
+prueba2.hello_form:
+  path: '/hello-form'
+  defaults:
+    _title: 'Display message'
+    _form: \Drupal\ow_forms\Form\HelloForm
+  requirements:
+    _access: 'TRUE'

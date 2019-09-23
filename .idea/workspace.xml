@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="58647a49-6c1a-4dc3-ab39-59561dc9b111" name="Default Changelist" comment="" />
+    <list default="true" id="58647a49-6c1a-4dc3-ab39-59561dc9b111" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/code/web/modules/custom/prueba2_forms/prueba2_forms.info.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code/web/modules/custom/prueba2_forms/prueba2_forms.routing.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code/web/modules/custom/prueba2_forms/src/Form/HelloForm.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/web/modules/custom/noticias/src/Plugin/Block/NoticiasSimpleBlock.php" beforeDir="false" afterPath="$PROJECT_DIR$/code/web/modules/custom/noticias/src/Plugin/Block/NoticiasSimpleBlock.php" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -11,24 +17,55 @@
   <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/code/composer.json</pharConfigPath>
   </component>
+  <component name="DrupalConfiguration" enabled="true" version="8">
+    <drupalPath>$PROJECT_DIR$/code/web</drupalPath>
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/code/web/modules/custom/prueba2_pagina/prueba2_pagina.routing.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="735">
-              <caret line="49" column="23" selection-start-line="49" selection-start-column="23" selection-end-line="49" selection-end-column="23" />
+            <state relative-caret-position="345">
+              <caret line="23" column="12" selection-start-line="23" selection-start-column="12" selection-end-line="23" selection-end-column="12" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/code/web/modules/custom/prueba2_pagina/src/Controller/PaginaController.php">
+        <entry file="file://$PROJECT_DIR$/code/web/modules/custom/prueba2_forms/prueba2_forms.info.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
+            <state relative-caret-position="15">
+              <caret line="1" column="12" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/code/web/modules/custom/prueba2_home/prueba2_home.links.menu.yml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/code/web/modules/custom/prueba2_pagina/prueba2_pagina.info.yml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/code/web/modules/custom/prueba2_forms/prueba2_forms.routing.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/code/web/modules/custom/prueba2_forms/src/Form/HelloForm.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="19" column="28" selection-start-line="19" selection-start-column="28" selection-end-line="19" selection-end-column="28" />
               <folding>
-                <element signature="e#52#82#0#PHP" expanded="true" />
+                <element signature="e#45#75#0#PHP" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -53,35 +90,6 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/code/web/modules/custom/prueba2_pagina/prueba2_pagina.info.yml">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/code/web/modules/custom/prueba2_pagina/src/Routing/PolicemanParamConverter.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" selection-start-line="18" selection-end-line="18" />
-              <folding>
-                <element signature="e#49#104#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/code/web/modules/custom/prueba2_pagina/src/Controller/PolicemanController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
-              <folding>
-                <element signature="e#52#94#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/code/web/core/lib/Drupal/Core/Session/AccountInterface.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="2235">
@@ -91,6 +99,9 @@
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -102,6 +113,9 @@
         <option value="$PROJECT_DIR$/code/web/modules/custom/prueba2_pagina/prueba2_pagina.services.yml" />
         <option value="$PROJECT_DIR$/code/web/modules/custom/prueba2_pagina/src/Controller/PolicemanController.php" />
         <option value="$PROJECT_DIR$/code/web/modules/custom/prueba2_pagina/src/Routing/PolicemanParamConverter.php" />
+        <option value="$PROJECT_DIR$/code/web/modules/custom/prueba2_forms/prueba2_forms.info.yml" />
+        <option value="$PROJECT_DIR$/code/web/modules/custom/prueba2_forms/prueba2_forms.routing.yml" />
+        <option value="$PROJECT_DIR$/code/web/modules/custom/prueba2_forms/src/Form/HelloForm.php" />
       </list>
     </option>
   </component>
@@ -241,11 +255,12 @@
     </include_path>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="608" />
-    <option name="y" value="428" />
-    <option name="width" value="1400" />
-    <option name="height" value="953" />
+    <option name="x" value="159" />
+    <option name="y" value="23" />
+    <option name="width" value="1864" />
+    <option name="height" value="988" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -283,6 +298,45 @@
               <item name="web" type="462c0819:PsiDirectoryNode" />
               <item name="modules" type="462c0819:PsiDirectoryNode" />
               <item name="custom" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="prueba2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="prueba2" type="462c0819:PsiDirectoryNode" />
+              <item name="code" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="modules" type="462c0819:PsiDirectoryNode" />
+              <item name="custom" type="462c0819:PsiDirectoryNode" />
+              <item name="prueba2_forms" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="prueba2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="prueba2" type="462c0819:PsiDirectoryNode" />
+              <item name="code" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="modules" type="462c0819:PsiDirectoryNode" />
+              <item name="custom" type="462c0819:PsiDirectoryNode" />
+              <item name="prueba2_forms" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="prueba2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="prueba2" type="462c0819:PsiDirectoryNode" />
+              <item name="code" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="modules" type="462c0819:PsiDirectoryNode" />
+              <item name="custom" type="462c0819:PsiDirectoryNode" />
+              <item name="prueba2_forms" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Form" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="prueba2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="prueba2" type="462c0819:PsiDirectoryNode" />
+              <item name="code" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="modules" type="462c0819:PsiDirectoryNode" />
+              <item name="custom" type="462c0819:PsiDirectoryNode" />
+              <item name="prueba2_home" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="prueba2" type="b2602c69:ProjectViewProjectNode" />
@@ -363,17 +417,21 @@
       <workItem from="1552397825585" duration="990000" />
       <workItem from="1553805316984" duration="1024000" />
       <workItem from="1554240592579" duration="1622000" />
+      <workItem from="1559771032532" duration="1180000" />
+      <workItem from="1560183960234" duration="565000" />
+      <workItem from="1560264312947" duration="2940000" />
+      <workItem from="1565373181383" duration="218000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12032000" />
+    <option name="totallyTimeSpent" value="16935000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="608" y="428" width="1400" height="953" extended-state="0" />
+    <frame x="159" y="23" width="1864" height="988" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.38733432" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.30625686" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -387,7 +445,7 @@
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" />
-      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" visible="true" weight="0.3169643" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -408,6 +466,53 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/code/web/modules/custom/prueba2_pagina/src/Routing/PolicemanParamConverter.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+          <folding>
+            <element signature="e#49#104#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/code/web/modules/custom/prueba2_pagina/src/Controller/PolicemanController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+          <folding>
+            <element signature="e#52#94#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/code/web/modules/custom/prueba2_pagina/prueba2_pagina.routing.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="12" selection-start-line="23" selection-start-column="12" selection-end-line="23" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/code/web/modules/custom/prueba2_forms/prueba2_forms.info.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="12" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/code/web/modules/custom/prueba2_home/prueba2_home.links.menu.yml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/code/web/modules/custom/prueba2_pagina/prueba2_pagina.info.yml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/code/web/modules/custom/prueba2_forms/prueba2_forms.routing.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/code/web/modules/custom/prueba2_pagina/src/Policeman.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
@@ -422,19 +527,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/code/web/modules/custom/prueba2_pagina/prueba2_pagina.info.yml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/code/web/modules/custom/prueba2_pagina/src/Controller/PolicemanController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
-          <folding>
-            <element signature="e#52#94#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/code/web/core/lib/Drupal/Core/Session/AccountInterface.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2235">
@@ -442,20 +534,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/code/web/modules/custom/prueba2_pagina/src/Routing/PolicemanParamConverter.php">
+    <entry file="file://$PROJECT_DIR$/code/web/modules/custom/prueba2_forms/src/Form/HelloForm.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        <state relative-caret-position="285">
+          <caret line="19" column="28" selection-start-line="19" selection-start-column="28" selection-end-line="19" selection-end-column="28" />
           <folding>
-            <element signature="e#49#104#0#PHP" expanded="true" />
+            <element signature="e#45#75#0#PHP" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/code/web/modules/custom/prueba2_pagina/prueba2_pagina.routing.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="735">
-          <caret line="49" column="23" selection-start-line="49" selection-start-column="23" selection-end-line="49" selection-end-column="23" />
         </state>
       </provider>
     </entry>

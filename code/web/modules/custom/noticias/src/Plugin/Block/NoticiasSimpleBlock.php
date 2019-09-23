@@ -37,7 +37,7 @@ class NoticiasSimpleBlock extends BlockBase {
             '#type' => 'textarea',
             '#title' => $this->t('Contenido del bloque'),
             '#description' => $this->t('Este texto aparecerá en el bloque.'),
-            '#default_value' => $this->config['noticias_block_string'],
+            '#default_value' => $this->configuration['noticias_block_string'],
         );
         return $form;
     }
@@ -46,7 +46,7 @@ class NoticiasSimpleBlock extends BlockBase {
      * {@inheritdoc}
      */
     public function blockSubmit($form, FormStateInterface $form_state) {
-        $this->config['noticias_block_string'] = $form_state->getValue('noticias_block_string_text');
+        $this->configuration['noticias_block_string'] = $form_state->getValue('noticias_block_string_text');
     }
 
 
@@ -56,7 +56,7 @@ class NoticiasSimpleBlock extends BlockBase {
     public function build() {
         return array(
             '#type' => 'markup',
-            '#markup' => $this->config['noticias_block_string'],
+            '#markup' => $this->configuration['noticias_block_string'],
         );
     }
 

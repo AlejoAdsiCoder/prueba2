@@ -1,0 +1,7 @@
+prueba2.home:
+  title: 'Go home'
+  description: 'Go home link.'
+  weight: 1
+  menu_name: main
+  route_name: prueba2.home
+  expanded: TRUE
